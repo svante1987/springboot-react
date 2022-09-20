@@ -10,13 +10,13 @@ h2{
     display: flex;
     justify-content: space-evenly;
     max-width: 1000px;
-    background-color: rgb(235, 235, 235);
+    background-color:  rgb(238, 238, 238);
 }
 
 .tableMainColumnName th{
     margin:1px;
     border-style: solid;
-    border-width: 2px 2px 2px 2px;
+    border-width: 1px 1px 1px 1px;
 }
 
 .tablEmployeeRows{

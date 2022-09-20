@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react'
-import EmployeeService from '../../services/EmployeeService'
-import './listemployee.css'
+import EmployeeService from '../../../services/EmployeeService'
+import '../listEmployee/listemployee.css'
 
 const ListEmployee = (props) => {
 
