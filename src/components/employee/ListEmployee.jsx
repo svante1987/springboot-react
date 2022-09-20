@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import EmployeeService from '../../services/EmployeeService'
+import './listemployee.css'
 
 const ListEmployee = (props) => {
 
@@ -14,7 +15,7 @@ const ListEmployee = (props) => {
 
   const employ = employees.map((obj, key) => {
     return(
-      <tr key = {obj.id}>
+      <tr key = {obj.id} className="tablEmployeeRows">
         <td>{obj.firstName}</td>
         <td>{obj.lastName}</td>
         <td>{obj.emailId}</td>
@@ -25,9 +26,10 @@ const ListEmployee = (props) => {
   return (
     <div>
       <h2>Employee List</h2>
+      <div className='tableContainer'>
         <table>
           <thead>
-            <tr>
+            <tr className='tableMainColumnName'>
               <th>Employee First Name</th>
               <th>Employee Last Name</th>
               <th>Employee Email Id</th>
@@ -40,7 +42,7 @@ const ListEmployee = (props) => {
           </tbody>
 
         </table>
-
+      </div>
     </div>
   )
 }

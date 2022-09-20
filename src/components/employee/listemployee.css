@@ -1,0 +1,31 @@
+h2{
+    display: flex;
+    justify-content: center;
+}
+.tableContainer{
+    display: flex;
+    justify-content: center;
+}
+.tableMainColumnName{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1000px;
+    background-color: rgb(235, 235, 235);
+}
+
+.tableMainColumnName th{
+    margin:1px;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+}
+
+.tablEmployeeRows{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(238, 238, 238);
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+}
+th{
+    padding:10px;
+}
