@@ -1,0 +1,16 @@
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+}
+
+.formSubButton{
+    max-width: 250px;
+}
